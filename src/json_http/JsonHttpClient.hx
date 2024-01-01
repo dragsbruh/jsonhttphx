@@ -1,4 +1,4 @@
-package http_json;
+package json_http;
 
 import haxe.Exception;
 import haxe.Json;
