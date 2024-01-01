@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"tags": ["json", "http", "net", "api"],
 	"description": "Perform JSON-oriented HTTP tasks on all native (sys) platforms I guess.",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"classPath": "src/",
 	"releasenote": "Initial release, almost everything is working correctly.",
 	"contributors": ["dragsbruh"]
