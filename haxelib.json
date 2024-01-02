@@ -4,8 +4,8 @@
 	"license": "MIT",
 	"tags": ["json", "http", "net", "api"],
 	"description": "Perform JSON-oriented HTTP tasks on all native (sys) platforms I guess.",
-	"version": "0.2.2",
+	"version": "0.3.0",
 	"classPath": "src",
-	"releasenote": "Fixed port nummber parsing.",
+	"releasenote": "Added HTTPS (TLS) support",
 	"contributors": ["dragsbruh"]
 }

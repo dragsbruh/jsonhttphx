@@ -1,0 +1,5 @@
+# TODO: Write tests for all targets (Well, in theory all sys platforms are supported)
+--class-path tests
+--library json_http
+--main Main
+--interp
