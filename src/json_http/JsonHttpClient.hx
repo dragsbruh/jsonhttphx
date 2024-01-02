@@ -172,15 +172,17 @@ class JsonHttpClient {
 			throw new Exception('Invalid URL: ${url}');
 		}
 		var host = url_regexp.matched(2);
-		var port: Dynamic = url_regexp.matched(3).split(':')[1];
+		var port: Dynamic = url_regexp.matched(3);
 		var request = url_regexp.matched(4);
 
 		if (request.charAt(0) != "/") {
 			request = "/" + request;
 		}
 
-		port = Std.parseInt(port);
-
+		if (port != null) {
+			port = Std.parseInt(port.substr(1));
+		}
+		
 		return {
 			host:host,
 			port:port,
