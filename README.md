@@ -1,7 +1,7 @@
 # json_http for haxe
 
 > Perform JSON-oriented HTTP tasks on all native (sys) platforms I guess. \
-> v0.2.1
+> v0.2.2
 
 ## Why
 

@@ -182,7 +182,7 @@ class JsonHttpClient {
 		if (port != null) {
 			port = Std.parseInt(port.substr(1));
 		}
-		
+
 		return {
 			host:host,
 			port:port,

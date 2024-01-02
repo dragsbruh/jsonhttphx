@@ -4,8 +4,8 @@
 	"license": "MIT",
 	"tags": ["json", "http", "net", "api"],
 	"description": "Perform JSON-oriented HTTP tasks on all native (sys) platforms I guess.",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"classPath": "src",
-	"releasenote": "Fixed a mess of naming conventions and make it actually usable",
+	"releasenote": "Fixed port nummber parsing.",
 	"contributors": ["dragsbruh"]
 }
